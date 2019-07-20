@@ -209,3 +209,60 @@ footer nav a {
     padding: 0px;
     margin: 0px;
 }
+
+/*About css*/
+.about-page {
+    width: 800px;
+}
+
+.top-about {
+    border-bottom: 1px dotted black;
+    padding: 0px 0px 20px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.about-main {
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main div {
+    width: 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    border-bottom: dotted 1px black;
+    margin-top: 20px;
+}
+
+main div h2 {
+    margin-top: 20px;
+}
+
+main div button {
+    margin: 20px 0px 20px 0px;
+    border: solid 2px black;
+    border-radius: 25px;
+    background: white;
+    width: 120px;
+    height: 40px;
+}
+
+.left {
+    margin-left: 20px; 
+}
+
+.right {
+    margin-left: 40px;
+}
+
+.bottom-about {
+    margin: 20px 0px 20px 20px;
+}
+
+.nav-about {
+    width: 98%;
+    margin-left: 20px; 
+}
