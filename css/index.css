@@ -72,12 +72,21 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 body nav a {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    margin: 20px 0px 30px 0px;
+    padding-right: 45px;
+}
+
+.jumbo-img {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -118,7 +127,6 @@ body nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -126,6 +134,47 @@ body nav a {
     justify-content: center;
 }
 
+/*Box classes by number adding individual background colors.*/
+
+.one {
+    background: teal;
+}
+
+.two {
+    background: gold;
+}
+
+.three {
+    background: cadetblue;
+}
+
+.four {
+    background: coral;
+}
+
+.five {
+    background: crimson;
+}
+
+.six {
+    background: forestgreen;
+}
+
+.seven {
+    background: darkorchid;
+}
+
+.eight {
+    background: hotpink;
+}
+
+.nine {
+    background: indigo;
+}
+
+.ten {
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -157,4 +206,6 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    padding: 0px;
+    margin: 0px;
 }
